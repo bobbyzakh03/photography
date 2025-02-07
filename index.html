@@ -8,14 +8,15 @@
     <style>
         body {
             font-family: Arial, sans-serif;
-            background-color: #f5f5f5;
+            background: url('images/background.jpg') no-repeat center center fixed;
+            background-size: cover;
             color: #333;
             text-align: center;
             margin: 0;
             padding: 0;
         }
         header {
-            background-color: #fff;
+            background-color: rgba(255, 255, 255, 0.8);
             color: #333;
             padding: 20px;
             border-bottom: 1px solid #ddd;
@@ -26,7 +27,7 @@
             margin: 0;
             display: flex;
             justify-content: center;
-            background-color: #fff;
+            background-color: rgba(255, 255, 255, 0.8);
             border-bottom: 1px solid #ddd;
         }
         nav ul li {
@@ -38,7 +39,7 @@
             font-weight: normal;
         }
         .hero {
-            background-color: #f8f8f8;
+            background-color: rgba(248, 248, 248, 0.8);
             color: #333;
             padding: 50px 20px;
         }
@@ -49,7 +50,7 @@
             box-shadow: 0px 2px 4px rgba(0, 0, 0, 0.05);
         }
         footer {
-            background-color: #fff;
+            background-color: rgba(255, 255, 255, 0.8);
             color: #666;
             padding: 10px;
             margin-top: 20px;
@@ -60,6 +61,7 @@
 <body>
     <header>
         <h1>My Film Photography</h1>
+        <p>Capturing moments, one frame at a time.</p>
     </header>
     <nav>
         <ul>
@@ -72,6 +74,11 @@
     <section class="hero">
         <h2>Welcome to My Collection</h2>
         <p>Explore my journey through film photography.</p>
+    </section>
+    <section id="gallery" class="gallery">
+        <img src="images/photo1.jpg" alt="Photo 1">
+        <img src="images/photo2.jpg" alt="Photo 2">
+    </section>
     <footer>
         <p>&copy; 2025 My Film Photography. All rights reserved.</p>
     </footer>
