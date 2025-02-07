@@ -3,15 +3,80 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Film and Digital Photography</title>
+    <title>My Film Photography</title>
     <link rel="stylesheet" href="style.css">
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            background-color: #f8f8f8;
+            color: #333;
+            text-align: center;
+            margin: 0;
+            padding: 0;
+        }
+        header {
+            background-color: #2c3e50;
+            color: white;
+            padding: 20px;
+        }
+        nav ul {
+            list-style: none;
+            padding: 0;
+            background-color: #34495e;
+            margin: 0;
+            display: flex;
+            justify-content: center;
+        }
+        nav ul li {
+            margin: 0 15px;
+        }
+        nav ul li a {
+            color: white;
+            text-decoration: none;
+            font-weight: bold;
+        }
+        .hero {
+            background-color: #1abc9c;
+            color: white;
+            padding: 50px 20px;
+        }
+        .gallery img {
+            width: 300px;
+            margin: 10px;
+            border-radius: 5px;
+            box-shadow: 0px 4px 6px rgba(0, 0, 0, 0.1);
+        }
+        footer {
+            background-color: #2c3e50;
+            color: white;
+            padding: 10px;
+            margin-top: 20px;
+        }
+    </style>
 </head>
 <body>
-    <h1>Bobby's Film Photography</h1>
-    <p>Welcome to my collection of film photographs! In here are folders consisting of different trips and seasons of pictures that I took and love.</p>
-    <div class="gallery">
+    <header>
+        <h1>My Film Photography</h1>
+        <p>Capturing moments, one frame at a time.</p>
+    </header>
+    <nav>
+        <ul>
+            <li><a href="#">Home</a></li>
+            <li><a href="#gallery">Gallery</a></li>
+            <li><a href="#about">About</a></li>
+            <li><a href="#contact">Contact</a></li>
+        </ul>
+    </nav>
+    <section class="hero">
+        <h2>Welcome to My Collection</h2>
+        <p>Explore my journey through film photography.</p>
+    </section>
+    <section id="gallery" class="gallery">
         <img src="images/photo1.jpg" alt="Photo 1">
         <img src="images/photo2.jpg" alt="Photo 2">
-    </div>
+    </section>
+    <footer>
+        <p>&copy; 2025 My Film Photography. All rights reserved.</p>
+    </footer>
 </body>
 </html>
